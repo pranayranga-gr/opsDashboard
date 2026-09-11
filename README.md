@@ -93,6 +93,43 @@ Use this format to summarize findings:
 
 Clarity shows what happened, but it does not always explain why. Pair Clarity findings with written comments or a short follow-up conversation.
 
+## Combining Clarity With Follow-Up Questions
+
+Use Clarity as the evidence layer, then use a short follow-up to understand the reviewer's intent.
+
+Recommended workflow:
+
+1. Send the prototype link and access code to the reviewer.
+2. Ask them to use the prototype naturally for 5-10 minutes.
+3. Watch their Clarity recording.
+4. Note 3-5 moments where something interesting happened, such as hesitation, repeated clicks, skipped sections, or clicks on non-clickable elements.
+5. Send a short follow-up form or email asking about those moments.
+
+Suggested follow-up questions:
+
+```text
+Thanks for reviewing the Ops Dashboard prototype.
+
+A few quick follow-up questions:
+
+1. What was the first thing you tried to understand or click?
+2. Was anything unclear, missing, or misleading?
+3. Were there any areas where you expected more detail or a next step?
+4. Which part of the dashboard would be most useful in your actual workflow?
+5. If you could change one thing before the next version, what would it be?
+```
+
+Use this format to connect behavior with intent:
+
+| Clarity observation | Follow-up question | Product decision |
+| --- | --- | --- |
+| Reviewer clicked a non-clickable card | What were you expecting to happen there? | Make the card clickable or change the styling |
+| Reviewer paused on a label | What did this label mean to you? | Rename the label or improve the hierarchy |
+| Reviewer skipped a key section | Did this section feel useful? | Move it, simplify it, or remove it |
+| Reviewer opened the same area repeatedly | What information were you looking for? | Add missing detail or improve navigation |
+
+This keeps the review lightweight. Clarity shows the behavior, and the follow-up questions explain the reason behind it.
+
 ## File Ownership
 
 `Concept Prototype Ops Dashboard.html` is the UI/UX-owned prototype export. Keep changes to that file minimal.
